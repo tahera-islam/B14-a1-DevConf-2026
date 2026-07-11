@@ -4,6 +4,10 @@
      font-family: "Inter", sans-serif;
 }
 /* Common-class */
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .common-btn{
     padding: 12px 35px;
     background-color: #1D4ED8;
@@ -174,8 +178,8 @@ ul li::marker{
     padding: 40px 80px;
 }
 .secure-card{
-    width: 300px;
-    height: 350px;
+    width: 420px;
+    height: 380px;
     padding: 32px;
     border: 1px solid #E5E7EB;
     border-radius: 10px;
@@ -236,6 +240,47 @@ ul li::marker{
     color: #FFFFFF;
     background-color: #2563EB;
     border-radius: 10px; 
+}
+
+/* Sponsors section */
+.sponsor-container{
+    background-color: #000102;
+    text-align: center;
+}
+.sponsor-container h1{
+    font-weight: bold;
+    font-size: 80px;
+    margin: 20px 0;
+    color: #FFFFFF;
+}
+.sponsor-container-p{
+    color: #E5E7EB;
+    font-weight: 600px;
+    font-style: 16px;
+}
+.sponsor-card-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.sponsor-card{
+    background-color: #0D1B2A;
+    border: 1px solid #575757;
+    border-radius: 10px;
+    margin: 80px 0;
+    padding: 50px 80px;
+    color: #E5E7EB;
+
+}
+.sponsor-card span{
+    font-size: 40px;
+    color: #2563EB;
+}
+.sponsor-card p{
+    font-weight: 600px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 /* Footer Section */
