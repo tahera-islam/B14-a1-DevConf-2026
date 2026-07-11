@@ -16,8 +16,13 @@ body{
     border: none;
 }
 .common-btn:hover{
-    background-color: #575757;
+    background-color: #FFFFFF;
+    color: #1D4ED8;
+    border: 2px solid #1D4ED8;
+    padding: 10px 50px;
     cursor: pointer;
+    font-weight: bolder;
+    font-size: 18px;
 }
 .common-card-btn{
     font-weight: 600;
@@ -31,7 +36,7 @@ body{
 
 }
 .common-card-btn:hover{
-    background-color: #93C5FD;
+    background-color: #1D4ED8;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -62,7 +67,12 @@ ul li::marker{
     text-decoration: none;
     color: #575757;
 }
-
+.nav-link li a:hover{
+    background-color: #2563EB;
+    color: #E5E7EB;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
 /* Hero Section */
 .hero-container{
     text-align: center;
@@ -178,7 +188,8 @@ ul li::marker{
     padding: 40px 80px;
 }
 .secure-card{
-    width: 420px;
+    display: inline-block;
+    width: 400px;
     height: 380px;
     padding: 32px;
     border: 1px solid #E5E7EB;
@@ -241,7 +252,12 @@ ul li::marker{
     background-color: #2563EB;
     border-radius: 10px; 
 }
-
+.btn-sp:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #1D4ED8;
+    border: 2px solid #1D4ED8;
+}
 /* Sponsors section */
 .sponsor-container{
     background-color: #000102;
@@ -251,6 +267,7 @@ ul li::marker{
     font-weight: bold;
     font-size: 80px;
     margin: 20px 0;
+    padding-top: 30px;
     color: #FFFFFF;
 }
 .sponsor-container-p{
