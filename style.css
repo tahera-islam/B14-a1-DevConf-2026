@@ -269,7 +269,7 @@ ul li::marker{
     border: 1px solid #575757;
     border-radius: 10px;
     margin: 80px 0;
-    padding: 50px 80px;
+    padding: 40px 80px;
     color: #E5E7EB;
 
 }
@@ -295,6 +295,16 @@ footer{
 .footer-1st p{
     font-size: 16px;
     line-height: 15px;
+}
+.footer-2nd span{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.footer-2nd span:hover{
+    cursor: pointer;
+    color: #2563EB;
+    font-size: 25px;
 }
 .footer-3rd{
     display: flex;

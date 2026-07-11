@@ -1,0 +1,1 @@
+Think you are a mentor of web development. I am learning web devlelopment. Suggest me some relevant ideas to make a section of website for Dev Conference, like sponsors, venue, job board with picture
