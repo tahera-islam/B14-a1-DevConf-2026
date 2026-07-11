@@ -11,6 +11,10 @@
     border-radius: 8px;
     border: none;
 }
+.common-btn:hover{
+    background-color: #575757;
+    cursor: pointer;
+}
 .common-card-btn{
     font-weight: 600;
     font-size: 14px;
@@ -21,6 +25,15 @@
     background-color: #FFFFFF;
     border-radius: 8px;
 
+}
+.common-card-btn:hover{
+    background-color: #93C5FD;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+ul li::marker{
+    color: blue;
 }
 .common-font{
     font-weight: bold;
@@ -223,4 +236,23 @@
     color: #FFFFFF;
     background-color: #2563EB;
     border-radius: 10px; 
+}
+
+/* Footer Section */
+
+footer{
+    padding: 50px 100px;
+    background-color: #0D1B2A;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.footer-1st p{
+    font-size: 16px;
+    line-height: 15px;
+}
+.footer-3rd{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
